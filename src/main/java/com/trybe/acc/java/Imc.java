@@ -15,12 +15,10 @@ public class Imc {
 			System.out.println("Digite a aultura:");
 			float altura = scan.nextFloat();
 			
-			// Seu código aqui
-			
-					
-			// Imprime a saída no console. OBS: descomente a próxima linha
-			//System.out.println(imc);
+			float imc = peso / (altura * altura);
 
+			System.out.println(imc);
+			scan.close();
 	}
 
 }
