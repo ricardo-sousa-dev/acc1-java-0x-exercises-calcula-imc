@@ -4,10 +4,10 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Imc {
-	/**
-	 * Método inicial.
-	 *
-	 */
+  /**
+   * Método inicial.
+   *
+   */
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in).useLocale(Locale.US);
 
@@ -21,6 +21,6 @@ public class Imc {
 
     System.out.println(imc);
     scan.close();
-	}
+  }
 
 }
